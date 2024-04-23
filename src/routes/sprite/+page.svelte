@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>Sprite Benchmark for {count}</title>
+	<title>Sprite Benchmark for {$count}</title>
 </svelte:head>
 <Sprite />
 {#each { length: $count } as _}
