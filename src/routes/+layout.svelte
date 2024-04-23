@@ -21,4 +21,9 @@
 		fill: black;
 		stroke: black;
 	}
+
+	:global(svg) {
+		width: 24px;
+		height: 24px;
+	}
 </style>

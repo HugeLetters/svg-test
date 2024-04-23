@@ -6,8 +6,18 @@
 	import Heart from '../asset/heart.svelte';
 </script>
 
-<Arrow />
-<Bell />
-<Envelope />
-<Glass />
-<Heart />
+<svg>
+	<Arrow />
+</svg>
+<svg>
+	<Bell />
+</svg>
+<svg>
+	<Envelope />
+</svg>
+<svg>
+	<Glass />
+</svg>
+<svg>
+	<Heart />
+</svg>
