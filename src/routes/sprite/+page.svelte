@@ -4,6 +4,9 @@
 	import { count } from '../count';
 </script>
 
+<svelte:head>
+	<title>Sprite Benchmark for {count}</title>
+</svelte:head>
 <Sprite />
 {#each { length: $count } as _}
 	<SpriteGroup />
