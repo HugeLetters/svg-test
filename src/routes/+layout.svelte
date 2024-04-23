@@ -5,6 +5,7 @@
 <nav>
 	<a href="/inline?count={$count}">inline</a>
 	<a href="/sprite?count={$count}">sprite</a>
+	<a href="/img-src?count={$count}">img with src</a>
 </nav>
 <form action="">
 	<label>
@@ -17,12 +18,7 @@
 </div>
 
 <style>
-	.root {
-		fill: black;
-		stroke: black;
-	}
-
-	:global(svg) {
+	:global(svg, img) {
 		width: 24px;
 		height: 24px;
 	}
